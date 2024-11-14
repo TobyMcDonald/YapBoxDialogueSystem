@@ -2,15 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[System.Serializable]
 public class DialogueText
 {
-    [SerializeField] public string name;
-    [SerializeField] public string text;
-    [SerializeField] public Sprite bg;
-    [SerializeField] public Sprite character;
+    [SerializeField] private string m_charName;
+    [Multiline]
+    [SerializeField] private string m_text;
+    [SerializeField] private Sprite m_character;
+    [SerializeField] private Sprite m_bg;
+    [SerializeField] private Sprite m_characterNameBG;
 
-    public DialogueText(string name, string text, UnityEngine.Sprite bg, UnityEngine.Sprite character)
-    {
-
-    }
+    public string charName => m_charName;
+    public string text => m_text;
+    public Sprite bg => m_bg;
+    public Sprite character => m_character;
+    public Sprite characterNameBG => m_characterNameBG;
 }

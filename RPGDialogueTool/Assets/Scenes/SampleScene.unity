@@ -316,11 +316,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_font: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_dialogueBoxBG: {fileID: 21300000, guid: cc410fc32af83244a9e43563ac662326, type: 3}
-  m_characterImage: {fileID: 21300000, guid: 42c30c0f486e48b419219aa4e3a52c0e, type: 3}
+  m_characterImage: {fileID: 21300000, guid: 4ff69643a96e8744ea2b057a14cd7791, type: 3}
   m_showCharacter: 1
-  m_text:
-  - I AM THE PISSMUNCHER
-  - I MUNCH THE PISS
+  m_conversationCollection:
+  - {fileID: 11400000, guid: c527ffe0e486c664c9bf8ade52e9f730, type: 2}
   m_dialogueIndex: 0
   m_charDelayTime: 0.1
   m_dialogueBox: {fileID: 2181813097971261003, guid: 29a6a347cb96e884693644d3d3bac184, type: 3}
