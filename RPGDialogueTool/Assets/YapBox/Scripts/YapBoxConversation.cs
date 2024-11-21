@@ -2,8 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "NewConversation", menuName = "YapBox/ConversationScriptableObject", order = 1)]
-public class YapBoxConversation : ScriptableObject
+namespace YapBox
 {
-    public List<DialogueText> dialogue;
+
+    [CreateAssetMenu(fileName = "NewConversation", menuName = "YapBox/ConversationScriptableObject", order = 1)]
+    public class YapBoxConversation : ScriptableObject
+    {
+        public List<DialogueText> dialogue;
+
+        public int conversationPosition;
+    }
 }
